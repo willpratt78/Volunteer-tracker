@@ -31,5 +31,9 @@ class Project
     end
     projects
   end
+
+  def self.find(id)
+
+  end
 end
 
