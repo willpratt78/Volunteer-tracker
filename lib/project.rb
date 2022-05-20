@@ -8,6 +8,6 @@ class Project
   end
 
   def self.title
-    title = DB.exec("SELECT * FROM projects").
+    @title = attributes.fetch(:name)
   end
 end
