@@ -13,6 +13,7 @@ describe Project do
       project = Project.new({:title => 'Teaching Kids to Code', :id => nil})
       expect(project.id).to eq nil
     end
+  end
     
   describe '#save' do
     it 'saves a project to the database' do
@@ -91,4 +92,4 @@ describe Project do
     end
   end
 end
-end
+
