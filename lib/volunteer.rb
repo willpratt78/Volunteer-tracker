@@ -8,7 +8,4 @@ class Volunteer
     @id = attributes.fetch(:id)
   end
 
-  def name
-
-  end
 end
