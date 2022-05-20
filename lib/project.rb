@@ -20,5 +20,9 @@ class Project
   def ==(project_to_compare)
     self.title() == project_to_compare.title()
   end
+
+  def self.all
+
+  end
 end
 
