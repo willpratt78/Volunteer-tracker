@@ -40,4 +40,10 @@ class Volunteer
     id = volunteer.fetch("id").to_i
     Volunteer.new({:name => name, :project_id => project_id, :id => id})
   end
+
+  def self.find_by_project(proj_id)
+
+  end
+
 end
+

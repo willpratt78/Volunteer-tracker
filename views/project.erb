@@ -1,4 +1,10 @@
 <h1>Project Name: <%= @project.title %></h1>
 
+<h3>Project Volunteers</h3>
+
+<% if @project.volunteers %>
+  
+<% end %>
+
 <p><a href="/projects/<%= @project.id %>/edit">Edit Project</a></p>
 <p><a href="/">Return to Project List</a></p>
