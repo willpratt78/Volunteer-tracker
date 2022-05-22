@@ -34,14 +34,13 @@ class Project
     Project.new({:title => title, :id => id})
   end
 
-  def update(attributes)
-    @title = attributes.fetch(:title)
-    DB.exec("UPDATE projects SET name = '#{@name}' WHERE id = #{id};")
+  def update(title)
+    @title = title
+    DB.exec("UPDATE projects SET name = '#{@title}' WHERE id = #{id};")
   end
 
   def delete
     DB.exec("DELETE FROM projects WHERE id = #{id};")
   end
-
 end
 
