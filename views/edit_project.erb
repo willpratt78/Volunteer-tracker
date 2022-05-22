@@ -10,3 +10,9 @@
 </form>
 
 <p><a href="/">Return to project list</a></p>
+
+<form action="/projects/<%= @project.id() %>" method="post">
+  <input name="_method" type="hidden" value="delete">
+
+  <button type="submit">Delete Project</button>
+</form>
