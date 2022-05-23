@@ -44,7 +44,7 @@ class Project
   end
 
   def volunteers
-    
+    Volunteer.find_by_project(self.id)
   end
 end
 
