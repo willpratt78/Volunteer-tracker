@@ -32,7 +32,7 @@ Application will let you create different projects and volunteers to add to them
 
 ## Known Bugs
 
-* Can't currently add Volunteers to projects
+* No known bugs at this time
 
 ## License
 
