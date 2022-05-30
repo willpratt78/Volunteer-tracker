@@ -23,6 +23,7 @@ Application will let you create different projects and volunteers to add to them
 * Navigete to directory in terminal
 * Open repo in VSC using terminal 
 * Run bundle in terminal
+* navigate to spec/spec_helper.rb and remove or replace password as you need
 * Run create db volunteer_tracker
 * Run psql volunteer_tracker < database_backup.sql
 * Run createdb -T [volunteer_tracker] [volunteer_tracker_test]
